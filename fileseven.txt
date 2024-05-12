@@ -3,7 +3,6 @@ cd git-head-demo
 git init
 touch file.txt
 git add .
-git commit -m "Create file"
 echo "Hello World!" > file.txt
 git commit -a -m "Add line to the file"
 echo "Second file" > file2.txt
